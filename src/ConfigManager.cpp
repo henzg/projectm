@@ -13,6 +13,9 @@ const nlohmann::json& ConfigManager::loadConfig(const std::string& filename) {
 	// full path to config file
 	std::string fullPath = getConfigFilePath(filename);
 
+	// debug log
+	Logger::debug("Attempting to load config file at: " + fullPath);
+
 	// attempt to load and parse the json file
 	std::ifstream file(fullPath);
 	if (!file.is_open()) {
@@ -48,7 +51,7 @@ void ConfigManager::clearAllConfigs() {
 }
 
 std::string ConfigManager::getConfigFilePath(const std::string& filename) const {
-	return "config/" + filename;
+	return "../../../configs/" + filename;
 }
 
 

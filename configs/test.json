@@ -1,0 +1,29 @@
+{
+  "character_defaults": {
+    "player": {
+      "name": "Default Player",
+      "health": 100,
+      "speed": 5,
+      "inventory": [],
+      "weapon": "Basic Sword",
+      "abilities": [ "Attack", "Defend" ]
+    },
+    "npc": {
+      "name": "Default NPC",
+      "health": 50,
+      "speed": 2,
+      "inventory": [ "Potion" ],
+      "dialogue": "Hello, traveler!",
+      "quest_available": false
+    },
+    "enemy": {
+      "name": "Default Enemy",
+      "health": 75,
+      "speed": 3,
+      "inventory": [ "Gold Coin" ],
+      "weapon": "Claws",
+      "attack_power": 10,
+      "abilities": [ "Bite", "Roar" ]
+    }
+  }
+}
