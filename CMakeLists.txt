@@ -30,7 +30,7 @@ set(SOURCES src/main.cpp
             src/Item.cpp
             src/ConfigManager.cpp
             src/AssetManager.cpp
- "src/Renderer.cpp")
+ "src/Renderer.cpp" "src/Game.cpp")
 
 # Add the exe target
 add_executable(projectm ${SOURCES})
