@@ -1,0 +1,19 @@
+{
+  "mage": {
+    "idle": {
+      "path": "../../../assets/characters/Mage/Idle",
+      "frames": 14,
+      "frame_rate": 0.1
+    },
+    "walk": {
+      "path": "../../../assets/characters/Mage/Walk",
+      "frames": 6,
+      "frame_rate": 0.15
+    },
+    "attack": {
+      "path": "../../../assets/characters/Mage/Attack",
+      "frames": 7,
+      "frame_rate": 0.2
+    }
+  }
+}

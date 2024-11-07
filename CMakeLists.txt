@@ -26,7 +26,11 @@ set(SOURCES src/main.cpp
             src/InputHandler.cpp 
             src/Logger.cpp
             src/LogConsole.cpp
- "src/Character.cpp" "src/Item.cpp" "src/ConfigManager.cpp")
+            src/Character.cpp
+            src/Item.cpp
+            src/ConfigManager.cpp
+            src/AssetManager.cpp
+ "src/Renderer.cpp")
 
 # Add the exe target
 add_executable(projectm ${SOURCES})
